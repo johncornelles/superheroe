@@ -1,4 +1,48 @@
-.footer{
-  margin-left : 80px;
-  font-size : 18px;
+.footer {
+  margin-left: 80px;
+  font-size: 18px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.overall {
+  padding: 0 230px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 100px;
+}
+
+.hero {
+  border: 2px solid rgb(186, 182, 182);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.hero img {
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 70px;
+}
+
+.score1,
+.score2,
+.score3,
+.score4,
+.score5 {
+  font-size: 30px;
+  width: 80px;
+  margin-bottom: 320px;
+}
+
+footer {
+  text-align: center;
 }
